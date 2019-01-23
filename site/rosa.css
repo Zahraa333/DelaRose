@@ -53,18 +53,18 @@ b{
 }
 
 
-/*@media only screen and (min-width : 426px) {*/
+@media only screen and (min-width : 426px) {
 
-	/*.line3 {*/
-	/*padding-top: 9rem;*/
+	.line3 {
+	padding-top: 5rem;
 	/*background-color: #e0afd8fa;*/
 	}
-	/*.line2{*/
-		/*padding-top: 9rem;*/
+	.line2{
+		padding-top: 9rem;
 		/*background-color: #e0afd8fa;*/
 	}
-	/*.line1{*/
-		/*padding-top: 9rem;*/
+	.line1{
+		padding-top: 9rem;
 		/*background-color: #e0afd8fa;*/
 	}
 
@@ -72,27 +72,64 @@ b{
 
 }
 
-/*@media only screen and (min-width : 992px) {
-*/
-	/*.line3{*/
-	/*padding-top: 15rem;*/
+ @media only screen and (min-width : 768px) {
+
+ 	.line3{
+	padding-top: 8rem;
+	/*background-color: #e0afd8fa;*/
+		}
+	.line2{
+		padding-top: 8rem;
+		/*background-color: #e9501d;*/
+		}
+	.line1{
+		padding-top: 8rem;
+		/*background-color: #e9501d;*/
+		}
+
+
+    }
+
+
+
+
+@media only screen and (min-width : 992px) {
+
+	.line3{
+	padding-top: 12rem;
 	/*background-color: #e0afd8fa;*/
 	}
-	/*.line2{*/
-		/*padding-top: 15rem;*/
+	.line2{
+		padding-top: 13rem;
 		/*background-color: #e9501d;*/
-	/*}*/
-	/*.line1{*/
-		/*padding-top: 14rem;*/
+	}
+	.line1{
+		padding-top: 12rem;
 		/*background-color: #e9501d;*/
-	/*}*/
-	/*body{*/
+	}
+	.note{
+		
+	}
 
-	/*}*/
+}
 
+  /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
 
-/*}*/
+    	.line3{
+		padding-top: 14rem;
+		/*background-color: black;*/
+		}
+	.line2{
+		padding-top: 14rem;
+		/*background-color: #e9501d;*/
+		}
+	.line1{
+		padding-top: 14rem;
+		/*background-color: #e9501d;*/
+		}
 
+    }
 
 
 /*-------------- sectionV ----------------*/
