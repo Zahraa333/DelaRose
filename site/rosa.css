@@ -7,29 +7,29 @@
 
 nav{
 	font-family: 'EB Garamond', serif;
+
 }
 
-b{
+b {
 	color: /*#4d0039*/ #9c206e;
 }
 /*-------------- sectionII ----------------*/
 
-
-
+#sectionII{
+	width: 90%;
+}
 
 /*-------------- sectionIII ----------------*/
-.sectionIII{
-
+#sectionIII{
 	/*background-color: #ffe6d1;*/
-	margin-top: 1em;
+	margin-top: -2em;
 
  }
  .note{
  	/*background-color: #e6e6e6;*/
  }
  .note2{
- 	/*background-color: #e0afd8fa;*/
- 	
+ 	/*background-color: #e0afd8fa;*/	
  }
  .line1 p{
  	
@@ -161,7 +161,7 @@ b{
 #sectionVIII{
 	margin-top: 3rem;
 	
-	background-color: #660033;
+	/*background-color: #660033;*/
 		
 }
 #sectionVIII img{
@@ -173,17 +173,39 @@ b{
 
 
 
+/*---------------- cards 8 ------------------*/
+
+
+.card{
+
+	margin: 0 auto;
+}
+
+.cards{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+
+
+
+
 
 
 /*---------------- footer --------------------*/
 
 footer{
-	background-color:    /*#4d0026*/  #4d0039; /* #660033	*/
-
-	
+	background-color:    /*#4d0026*/  #660033; /* #660033	*/
 }
-.footer-copyright a{
-	color: 	#DB7093;	
+
+
+.end{
+	padding-top: 3rem;
+	color: white;
+	/*font-family: 'Charm', cursive;*/
+	font-family: 'EB Garamond', serif;
+
+
 }
 
 
