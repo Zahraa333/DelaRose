@@ -169,8 +169,10 @@ b {
 		
 }
 #sectionIX img{
-
+	margin-bottom: 2rem;
+	background-color: purple;
 }
+
 
 hr {
     width: 400px;
