@@ -22,7 +22,7 @@ b {
 /*-------------- sectionIII ----------------*/
 #sectionIII{
 	/*background-color: #ffe6d1;*/
-	margin-top: -2em;
+	margin-top: 1em;
 
  }
  .note{
@@ -40,7 +40,7 @@ b {
 
 /*-------------- sectionIV ----------------*/
 .sectionIV{
-	margin-top: 1em;
+	margin-top: -1em;
 	
 }
 .line3 p{
@@ -107,16 +107,13 @@ b {
 		padding-top: 12rem;
 		/*background-color: #e9501d;*/
 	}
-	.note{
-		
-	}
 
 }
 
   /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
 
-    	.line3{
+    .line3{
 		padding-top: 14rem;
 		/*background-color: black;*/
 		}
@@ -128,6 +125,11 @@ b {
 		padding-top: 14rem;
 		/*background-color: #e9501d;*/
 		}
+
+	img{
+		width: 80%;
+
+	  }
 
     }
 
@@ -152,23 +154,30 @@ b {
 
 .sectionVI{
 	margin-top: 1em;
+	margin-bottom: 2rem;
 
 }
 
 
 
 /*---------------- photos --------------------*/
-#sectionVIII{
-	margin-top: 3rem;
+#sectionIX{
+	margin-top: 1rem;
+	margin-bottom: 5rem;
 	
 	/*background-color: #660033;*/
 		
 }
-#sectionVIII img{
+#sectionIX img{
 
-	
-	margin: 5px 5px 5px 5px; 
-	padding: 5px 5px 5px 5px; 
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -179,10 +188,11 @@ b {
 .card{
 
 	margin: 0 auto;
+	margin-bottom: 2rem;
 }
 
-.cards{
-	margin-top: 5rem;
+#sectionVIII{
+	margin-top: 3rem;
 	margin-bottom: 5rem;
 }
 
