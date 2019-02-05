@@ -141,9 +141,8 @@ b {
 }
  .line2 p{
  	
- 	border-right: 1px solid #9c206e;
- 	padding-right: 1rem;
- 	text-align: right;
+ 	border-left: 1px solid #9c206e;
+ 	padding-left: 1rem;
 
  }
 /* #stickyNote{
