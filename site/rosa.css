@@ -27,6 +27,7 @@ b {
  }
  .note{
  	/*background-color: #e6e6e6;*/
+
  }
  .note2{
  	/*background-color: #e0afd8fa;*/	
@@ -44,7 +45,7 @@ b {
 	
 }
 .line3 p{
-	border-left: 2px solid #e9501d;
+	border-left: 1px solid #e9501d;
  	padding-left: 1rem;
 }
 .line3{
@@ -128,9 +129,8 @@ b {
 
 	img{
 		width: 80%;
-
 	  }
-
+	  
     }
 
 
@@ -141,11 +141,14 @@ b {
 }
  .line2 p{
  	
- 	border-right: 2px solid #9c206e;
+ 	border-right: 1px solid #9c206e;
  	padding-right: 1rem;
  	text-align: right;
 
  }
+/* #stickyNote{
+ 	background-image: url("blank-sticky-note.jpg");
+ }*/
 
 /* #e9501d orange*/
 
@@ -162,11 +165,11 @@ b {
 
 /*---------------- photos --------------------*/
 #sectionIX{
-	margin-top: 1rem;
-	margin-bottom: 5rem;
+	/*margin-top: 1rem;
+	margin-bottom: 5rem;*/
+	margin: 0 auto;
 	
-	/*background-color: #660033;*/
-		
+	/*background-color: #660033;*/		
 }
 #sectionIX img{
 	margin-bottom: 2rem;
